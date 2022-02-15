@@ -1,0 +1,19 @@
+{
+	"name": "ls_datalake_rivaldo",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://dlsimersaot02rivaldo.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_key_ault_rivaldo",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "kvkeydatalake"
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"name": "ls_key_ault_rivaldo",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-imersaot02rivaldo.vault.azure.net/"
+		}
+	}
+}

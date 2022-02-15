@@ -1,0 +1,9 @@
+{
+	"name": "adf-imersaot02rivaldo",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "29b8657e-8423-42ec-8628-7180019cc357",
+		"tenantId": "63474290-3700-401b-bc81-f0b095ec8317"
+	}
+}

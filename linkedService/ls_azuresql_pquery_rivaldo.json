@@ -1,0 +1,12 @@
+{
+	"name": "ls_azuresql_pquery_rivaldo",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sql-imersaot02rivaldo.database.windows.net;initial catalog=sqldb-imersaot02rivaldo;user id=rivaldo",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEE4MEZBNDJDLTQ1QUMtNDAzNS1CRUQwLTA4RTczNEM4RTMwMV8zNTEzYzc1Zi1iZjJhLTQzNTAtODY0NC1hZDliYTg2ZmNjZjAiDQp9"
+		}
+	}
+}
