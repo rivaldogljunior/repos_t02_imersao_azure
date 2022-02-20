@@ -1,0 +1,16 @@
+{
+	"name": "ls_sqlserver_rivaldo",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-PS62UBS\\SQLEXPRESS;initial catalog=imersaot02_db;user id=imersaot02_user",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0Yzg0Zjc1MS1iMzc0LTQ4MTQtYWU0Ni1iYzMxZDA3MzFmYzMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "irself-homerivaldo",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
