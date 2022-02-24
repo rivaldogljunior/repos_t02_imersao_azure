@@ -1,0 +1,17 @@
+{
+	"name": "ls_dirlocal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\",
+			"userId": "rivaldo",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0OWVjOTRmNi1mYWRiLTQzMDMtYjk3MC04ZmU3MDAzMDg0M2IiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "irself-homerivaldo",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
