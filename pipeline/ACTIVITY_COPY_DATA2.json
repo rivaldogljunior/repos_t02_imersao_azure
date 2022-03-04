@@ -1,0 +1,9 @@
+{
+	"name": "ACTIVITY_COPY_DATA2",
+	"properties": {
+		"folder": {
+			"name": "01_pipelines"
+		},
+		"annotations": []
+	}
+}
