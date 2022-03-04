@@ -127,7 +127,7 @@
 						"referenceName": "ds_generic_azuresql_rivaldo",
 						"type": "DatasetReference",
 						"parameters": {
-							"schema_name": "SalesTL",
+							"schema_name": "SalesLT",
 							"table_name": "TBCidadesTXT2"
 						}
 					}
