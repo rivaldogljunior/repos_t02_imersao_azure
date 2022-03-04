@@ -18,7 +18,7 @@
 					"source": {
 						"type": "DelimitedTextSource",
 						"storeSettings": {
-							"type": "AzureBlobFSReadSettings",
+							"type": "FileServerReadSettings",
 							"recursive": true,
 							"enablePartitionDiscovery": false
 						},
@@ -45,12 +45,11 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_csv_generic",
+						"referenceName": "ds_local_csv_generic",
 						"type": "DatasetReference",
 						"parameters": {
-							"container_name": "raw",
 							"file_name": "cidadestxt1.txt",
-							"separator_file": ";"
+							"separator": ";"
 						}
 					}
 				],
