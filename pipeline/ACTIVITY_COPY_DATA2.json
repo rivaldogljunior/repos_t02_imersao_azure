@@ -29,13 +29,7 @@
 					"sink": {
 						"type": "AzureSqlSink",
 						"preCopyScript": "truncate table [SalesLT].[TBCidadesTXT1]",
-						"writeBehavior": "upsert",
-						"upsertSettings": {
-							"useTempDB": true,
-							"keys": [
-								"cod_cidade"
-							]
-						},
+						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false,
 						"tableOption": "autoCreate",
 						"disableMetricsCollection": false
